@@ -5,7 +5,7 @@
  * Return: 0 on success
  */
 int main(void)
-{	
+{
 	char a;
 	int b;
 	long int c;
