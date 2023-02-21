@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - I'm in
+ * main - entry point
  *
  * Return: 0 on success
  */
@@ -15,7 +15,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	x = n % 10;
-	printf("last digit of %d is %d ", n, x);
+	printf("Last digit of %d is %d ", n, x);
 	if (x > 5)
 	{
 		printf("and is greater than 5");
